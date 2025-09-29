@@ -9,11 +9,15 @@ from nonebot.adapters import Message
 from nonebot.params import CommandArg
 from nonebot.adapters.onebot.v11 import Bot
 
+
 __plugin_meta__ = PluginMetadata(
     name="tcping",
     description="TCP端口连通性测试工具，支持域名和IP地址测试",
     usage=".tcping 域名:端口 或 .tcping IP:端口",
+    type="server",
+    homepage="https://github.com/Ender-Kylin/nonebot_plugin_tcping",
     config=Config,
+    supported_adapters={"~onebot.v11"},
 )
 
 
