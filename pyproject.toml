@@ -1,9 +1,9 @@
 [project]
-name = "nonebot-plugin-template"
-version = "0.1.0"
-description = "<your_plugin_description>"
+name = "nonebot-plugin-tcping"
+version = "1.0.0"
+description = "Nonebot2 Plugin Template"
 authors = [
-    {name = "<your_github>", email = "<your_email>"},
+    {name = "EnderKylin", email = "3162176860@qq.com"},
 ]
 dependencies = [
     "nonebot2>=2.3.1",
